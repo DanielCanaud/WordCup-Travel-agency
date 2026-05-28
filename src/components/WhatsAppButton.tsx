@@ -1,5 +1,7 @@
 export function WhatsAppButton() {
-  const message = encodeURIComponent("Olá! Tenho interesse nos pacotes da Copa 2026.");
+  const message = encodeURIComponent(
+    "Olá! Tenho interesse nos pacotes da Copa 2026.",
+  );
   return (
     <a
       href={`https://wa.me/5511999999999?text=${message}`}

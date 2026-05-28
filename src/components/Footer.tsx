@@ -8,23 +8,32 @@ export function Footer() {
           <div className="flex items-center gap-2 mb-3">
             <Crown className="w-5 h-5 text-gold" />
             <span className="font-serif text-lg">
-              <span className="text-gradient-gold font-bold">Atlas</span> Voyages
+              <span className="text-gradient-gold font-bold">Atlas</span>{" "}
+              Voyages
             </span>
           </div>
           <p className="text-sm text-muted-foreground">
-            Experiências exclusivas para a Copa do Mundo 2026. Viaje como nunca antes.
+            Experiências exclusivas para a Copa do Mundo 2026. Viaje como nunca
+            antes.
           </p>
         </div>
         <div>
           <h4 className="text-sm font-semibold text-gold mb-3">Contato</h4>
-          <p className="text-sm text-muted-foreground">contato@atlasvoyages.com</p>
+          <p className="text-sm text-muted-foreground">
+            contato@atlasvoyages.com
+          </p>
           <p className="text-sm text-muted-foreground">+55 11 99999-9999</p>
         </div>
         <div>
-          <h4 className="text-sm font-semibold text-gold mb-3">Atlas Voyages</h4>
-          <p className="text-sm text-muted-foreground">Av. Paulista, 1000 — São Paulo</p>
+          <h4 className="text-sm font-semibold text-gold mb-3">
+            Atlas Voyages
+          </h4>
+          <p className="text-sm text-muted-foreground">
+            Av. Paulista, 1000 — São Paulo
+          </p>
           <p className="text-xs text-muted-foreground/70 mt-4">
-            © {new Date().getFullYear()} Atlas Voyages. Projeto fictício para portfólio.
+            © {new Date().getFullYear()} Atlas Voyages. Projeto fictício para
+            portfólio.
           </p>
         </div>
       </div>

@@ -24,7 +24,9 @@ function LoginPage() {
     <div className="min-h-[80vh] flex items-center justify-center px-4 py-16">
       <div className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-lux">
         <h1 className="text-3xl font-bold">Bem-vindo de volta</h1>
-        <p className="mt-2 text-sm text-muted-foreground">Acesse sua conta Atlas Voyages.</p>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Acesse sua conta Atlas Voyages.
+        </p>
         <form onSubmit={submit} className="mt-6 space-y-4">
           <label className="block">
             <span className="text-sm">E-mail</span>

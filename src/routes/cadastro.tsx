@@ -14,7 +14,8 @@ function CadastroPage() {
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (form.password.length < 6) return setErr("Senha deve ter ao menos 6 caracteres");
+    if (form.password.length < 6)
+      return setErr("Senha deve ter ao menos 6 caracteres");
     const r = registerUser(form);
     if (!r.ok) return setErr(r.error || "Erro");
     navigate({ to: "/dashboard" });
@@ -24,7 +25,9 @@ function CadastroPage() {
     <div className="min-h-[80vh] flex items-center justify-center px-4 py-16">
       <div className="w-full max-w-md rounded-2xl border border-border bg-card p-8 shadow-lux">
         <h1 className="text-3xl font-bold">Crie sua conta</h1>
-        <p className="mt-2 text-sm text-muted-foreground">Comece sua jornada para a Copa 2026.</p>
+        <p className="mt-2 text-sm text-muted-foreground">
+          Comece sua jornada para a Copa 2026.
+        </p>
         <form onSubmit={submit} className="mt-6 space-y-4">
           <label className="block">
             <span className="text-sm">Nome</span>

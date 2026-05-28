@@ -53,10 +53,16 @@ export function Navbar() {
           ))}
           {session ? (
             <>
-              <Link to="/dashboard" className="text-sm text-foreground/80 hover:text-gold">
+              <Link
+                to="/dashboard"
+                className="text-sm text-foreground/80 hover:text-gold"
+              >
                 Dashboard
               </Link>
-              <button onClick={handleLogout} className="text-sm text-foreground/60 hover:text-gold">
+              <button
+                onClick={handleLogout}
+                className="text-sm text-foreground/60 hover:text-gold"
+              >
                 Sair
               </button>
             </>
@@ -95,16 +101,25 @@ export function Navbar() {
             ))}
             {session ? (
               <>
-                <Link to="/dashboard" className="py-2 text-foreground/90 hover:text-gold">
+                <Link
+                  to="/dashboard"
+                  className="py-2 text-foreground/90 hover:text-gold"
+                >
                   Dashboard
                 </Link>
-                <button onClick={handleLogout} className="py-2 text-left text-foreground/60">
+                <button
+                  onClick={handleLogout}
+                  className="py-2 text-left text-foreground/60"
+                >
                   Sair
                 </button>
               </>
             ) : (
               <>
-                <Link to="/login" className="py-2 text-foreground/90 hover:text-gold">
+                <Link
+                  to="/login"
+                  className="py-2 text-foreground/90 hover:text-gold"
+                >
                   Entrar
                 </Link>
                 <Link to="/cadastro" className="py-2 text-gold">

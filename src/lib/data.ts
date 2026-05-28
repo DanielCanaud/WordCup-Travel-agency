@@ -26,7 +26,8 @@ export const destinos: Destino[] = [
     pais: "Estados Unidos",
     descricao:
       "A cidade dos sonhos californiana recebe alguns dos maiores jogos da Copa 2026. Praias douradas, Hollywood e o icônico SoFi Stadium aguardam você.",
-    imagem: "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1920&q=80",
+    imagem:
+      "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1920&q=80",
     pontos: [
       {
         nome: "Hollywood Sign",
@@ -48,7 +49,8 @@ export const destinos: Destino[] = [
     pais: "Estados Unidos",
     descricao:
       "Sol, neon e arquitetura art déco. Miami combina o calor latino com a sofisticação americana em uma experiência inesquecível.",
-    imagem: "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1920&q=80",
+    imagem:
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1920&q=80",
     pontos: [
       {
         nome: "South Beach",
@@ -70,7 +72,8 @@ export const destinos: Destino[] = [
     pais: "México",
     descricao:
       "Capital vibrante que abrirá a Copa 2026 no histórico Estádio Azteca. Cultura milenar, gastronomia premiada e energia única.",
-    imagem: "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1920&q=80",
+    imagem:
+      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1920&q=80",
     pontos: [
       {
         nome: "Estádio Azteca",
@@ -97,8 +100,14 @@ export const pacotes: Pacote[] = [
     noites: 5,
     hotel: "The Beverly Hilton",
     preco: 18900,
-    inclui: ["Voo executivo", "5 noites 5★", "Ingresso fase de grupos", "Transfer privativo"],
-    imagem: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1200&q=80",
+    inclui: [
+      "Voo executivo",
+      "5 noites 5★",
+      "Ingresso fase de grupos",
+      "Transfer privativo",
+    ],
+    imagem:
+      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1200&q=80",
   },
   {
     id: "pkg-mia-vip",
@@ -108,8 +117,14 @@ export const pacotes: Pacote[] = [
     noites: 6,
     hotel: "Faena Hotel Miami Beach",
     preco: 24500,
-    inclui: ["Voo first class", "6 noites suíte oceano", "Camarote Hard Rock", "City tour premium"],
-    imagem: "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
+    inclui: [
+      "Voo first class",
+      "6 noites suíte oceano",
+      "Camarote Hard Rock",
+      "City tour premium",
+    ],
+    imagem:
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
   },
   {
     id: "pkg-mex-opening",
@@ -119,10 +134,20 @@ export const pacotes: Pacote[] = [
     noites: 4,
     hotel: "Four Seasons CDMX",
     preco: 15700,
-    inclui: ["Voo executivo", "4 noites 5★", "Jogo de abertura Azteca", "Tour Teotihuacán"],
-    imagem: "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=80",
+    inclui: [
+      "Voo executivo",
+      "4 noites 5★",
+      "Jogo de abertura Azteca",
+      "Tour Teotihuacán",
+    ],
+    imagem:
+      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=80",
   },
 ];
 
 export const fmtBRL = (n: number) =>
-  n.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+  n.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    maximumFractionDigits: 0,
+  });

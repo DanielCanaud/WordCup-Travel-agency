@@ -19,7 +19,13 @@ function CheckoutPage() {
   const pacote = pacotes.find((p) => p.id === pkg) ?? pacotes[0];
   const navigate = useNavigate();
   const [done, setDone] = useState(false);
-  const [form, setForm] = useState({ nome: "", email: "", cartao: "", validade: "", cvv: "" });
+  const [form, setForm] = useState({
+    nome: "",
+    email: "",
+    cartao: "",
+    validade: "",
+    cvv: "",
+  });
 
   useEffect(() => {
     const s = getSession();
@@ -50,7 +56,9 @@ function CheckoutPage() {
           <Check className="w-8 h-8 text-primary-foreground" />
         </div>
         <h1 className="text-3xl font-bold">Reserva confirmada!</h1>
-        <p className="mt-3 text-muted-foreground">Redirecionando ao seu painel…</p>
+        <p className="mt-3 text-muted-foreground">
+          Redirecionando ao seu painel…
+        </p>
       </div>
     );
   }
@@ -111,16 +119,24 @@ function CheckoutPage() {
 
       <aside className="rounded-2xl border border-border bg-card p-6 h-fit sticky top-24">
         <div className="aspect-[4/3] rounded-lg overflow-hidden mb-4">
-          <img src={pacote.imagem} alt={pacote.cidade} className="w-full h-full object-cover" />
+          <img
+            src={pacote.imagem}
+            alt={pacote.cidade}
+            className="w-full h-full object-cover"
+          />
         </div>
-        <p className="text-xs tracking-widest text-gold uppercase">{pacote.cidade}</p>
+        <p className="text-xs tracking-widest text-gold uppercase">
+          {pacote.cidade}
+        </p>
         <h3 className="text-xl font-semibold mt-1">{pacote.nome}</h3>
         <p className="text-sm text-muted-foreground">
           {pacote.hotel} · {pacote.noites} noites
         </p>
         <div className="mt-4 pt-4 border-t border-border flex items-center justify-between">
           <span className="text-sm text-muted-foreground">Total</span>
-          <span className="text-gradient-gold text-2xl font-bold">{fmtBRL(pacote.preco)}</span>
+          <span className="text-gradient-gold text-2xl font-bold">
+            {fmtBRL(pacote.preco)}
+          </span>
         </div>
         <Link
           to="/pacotes"

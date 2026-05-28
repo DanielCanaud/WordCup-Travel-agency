@@ -13,7 +13,10 @@ export const Route = createFileRoute("/")({
           "Pacotes exclusivos high ticket para Los Angeles, Miami e Cidade do México na Copa 2026.",
       },
       { property: "og:title", content: "Atlas Voyages — Copa 2026" },
-      { property: "og:description", content: "Viva a Copa do Mundo 2026 em experiências de luxo." },
+      {
+        property: "og:description",
+        content: "Viva a Copa do Mundo 2026 em experiências de luxo.",
+      },
     ],
   }),
   component: Index,
@@ -118,8 +121,12 @@ function Index() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="flex items-end justify-between mb-10">
           <div>
-            <span className="text-gold text-xs tracking-[0.3em] uppercase">Seleção curada</span>
-            <h2 className="text-3xl md:text-5xl font-bold mt-2">Pacotes em destaque</h2>
+            <span className="text-gold text-xs tracking-[0.3em] uppercase">
+              Seleção curada
+            </span>
+            <h2 className="text-3xl md:text-5xl font-bold mt-2">
+              Pacotes em destaque
+            </h2>
           </div>
           <Link
             to="/pacotes"
@@ -144,13 +151,17 @@ function Index() {
                 />
               </div>
               <div className="p-6">
-                <p className="text-xs tracking-widest text-gold uppercase">{p.cidade}</p>
+                <p className="text-xs tracking-widest text-gold uppercase">
+                  {p.cidade}
+                </p>
                 <h3 className="text-2xl font-semibold mt-1">{p.nome}</h3>
                 <p className="text-sm text-muted-foreground mt-2">
                   {p.hotel} · {p.noites} noites
                 </p>
                 <div className="mt-4 flex items-center justify-between">
-                  <span className="text-gradient-gold text-xl font-bold">{fmtBRL(p.preco)}</span>
+                  <span className="text-gradient-gold text-xl font-bold">
+                    {fmtBRL(p.preco)}
+                  </span>
                   <span className="text-sm text-gold">Reservar →</span>
                 </div>
               </div>
