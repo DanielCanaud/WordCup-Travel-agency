@@ -2,7 +2,7 @@
 
 Site institucional + e-commerce hoteleiro de uma agência de viagens fictícia focada na Copa do Mundo 2026 (Los Angeles, Miami e Cidade do México). Projeto de portfólio com visual luxuoso *high ticket*, totalmente responsivo e simulando uma experiência real (sem backend).
 
-## ✨ Features
+##  Features
 
 - **Home** com hero rotativo entre as 3 cidades-sede
 - **Destinos** com pontos turísticos de cada cidade
@@ -15,7 +15,7 @@ Site institucional + e-commerce hoteleiro de uma agência de viagens fictícia f
 - Imagens via **Unsplash** (URLs diretas, sem chave de API)
 - Design dark com paleta dourada e tipografia Playfair Display + Inter
 
-## 🛠 Stack
+##  Stack
 
 - **React 19 + TypeScript**
 - **TanStack Start** (SSR + file-based routing — equivalente a Next.js)
@@ -24,7 +24,7 @@ Site institucional + e-commerce hoteleiro de uma agência de viagens fictícia f
 - **lucide-react** (ícones)
 
 
-## 🚀 Como rodar
+##  Como rodar
 
 ```bash
 bun install      # ou npm install
@@ -33,7 +33,7 @@ bun dev          # ou npm run dev
 
 Abra `http://localhost:8080`.
 
-## 📁 Estrutura
+##  Estrutura
 
 ```
 src/
@@ -53,7 +53,7 @@ src/
 └── styles.css         # design system (tokens oklch)
 ```
 
-## 🔐 Persistência
+##  Persistência
 
 Tudo é salvo no `localStorage` do navegador:
 
