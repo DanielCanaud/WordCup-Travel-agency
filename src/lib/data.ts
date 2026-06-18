@@ -27,19 +27,19 @@ export const destinos: Destino[] = [
     descricao:
       "A cidade dos sonhos californiana recebe alguns dos maiores jogos da Copa 2026. Praias douradas, Hollywood e o icônico SoFi Stadium aguardam você.",
     imagem:
-      "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1920&q=80",
+      "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1600&q=80&auto=format&fit=crop",
     pontos: [
       {
         nome: "Hollywood Sign",
-        img: "https://images.unsplash.com/photo-1597211833712-5e41faa202ea?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1549417229-aa67d3263c09?w=600&q=80&auto=format&fit=crop",
       },
       {
         nome: "Santa Monica Pier",
-        img: "https://images.unsplash.com/photo-1597082767123-aff035cd9eba?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1505245208761-ba872912fac0?w=600&q=80&auto=format&fit=crop",
       },
       {
         nome: "SoFi Stadium",
-        img: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&q=80&auto=format&fit=crop",
       },
     ],
   },
@@ -50,19 +50,19 @@ export const destinos: Destino[] = [
     descricao:
       "Sol, neon e arquitetura art déco. Miami combina o calor latino com a sofisticação americana em uma experiência inesquecível.",
     imagem:
-      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1920&q=80",
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1600&q=80&auto=format&fit=crop",
     pontos: [
       {
         nome: "South Beach",
-        img: "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?w=600&q=80&auto=format&fit=crop",
       },
       {
         nome: "Wynwood Walls",
-        img: "https://images.unsplash.com/photo-1605649461784-edc01e16d76d?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=600&q=80&auto=format&fit=crop",
       },
       {
         nome: "Hard Rock Stadium",
-        img: "https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1445307806294-bff7f67ff225?w=600&q=80&auto=format&fit=crop",
       },
     ],
   },
@@ -73,19 +73,19 @@ export const destinos: Destino[] = [
     descricao:
       "Capital vibrante que abrirá a Copa 2026 no histórico Estádio Azteca. Cultura milenar, gastronomia premiada e energia única.",
     imagem:
-      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1920&q=80",
+      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1600&q=80&auto=format&fit=crop",
     pontos: [
       {
         nome: "Estádio Azteca",
-        img: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?w=600&q=80&auto=format&fit=crop",
       },
       {
         nome: "Zócalo",
-        img: "https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1512813195386-6cf811ad3542?w=600&q=80&auto=format&fit=crop",
       },
       {
         nome: "Teotihuacán",
-        img: "https://images.unsplash.com/photo-1547558840-8d24fc4b8bb1?w=800&q=80",
+        img: "https://images.unsplash.com/photo-1580982327559-c1202864eb05?w=600&q=80&auto=format&fit=crop",
       },
     ],
   },
@@ -107,7 +107,7 @@ export const pacotes: Pacote[] = [
       "Transfer privativo",
     ],
     imagem:
-      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=1200&q=80",
+      "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80&auto=format&fit=crop",
   },
   {
     id: "pkg-mia-vip",
@@ -124,7 +124,7 @@ export const pacotes: Pacote[] = [
       "City tour premium",
     ],
     imagem:
-      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=1200&q=80",
+      "https://images.unsplash.com/photo-1535498730771-e735b998cd64?w=800&q=80&auto=format&fit=crop",
   },
   {
     id: "pkg-mex-opening",
@@ -141,7 +141,7 @@ export const pacotes: Pacote[] = [
       "Tour Teotihuacán",
     ],
     imagem:
-      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=80",
+      "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=800&q=80&auto=format&fit=crop",
   },
 ];
 

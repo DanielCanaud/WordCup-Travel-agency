@@ -11,7 +11,7 @@ import {
 import appCss from "../styles.css?url";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { ChatWidget } from "@/components/ChatWidget";
 
 function NotFoundComponent() {
   return (
@@ -140,7 +140,7 @@ function RootComponent() {
         <Outlet />
       </main>
       <Footer />
-      <WhatsAppButton />
+      <ChatWidget />
     </QueryClientProvider>
   );
 }
