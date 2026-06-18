@@ -8,6 +8,8 @@ pnpm-lock.yaml
 .nitro
 .output
 .vinxi
+.vercel
+.vercel/**
 src/routeTree.gen.ts
 
 # Dependências
